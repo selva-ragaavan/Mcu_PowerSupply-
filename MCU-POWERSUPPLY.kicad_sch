@@ -1128,130 +1128,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:LM2596S-5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2068,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 139.7 91.44)
+			(xy 134.62 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2235,16 +2111,6 @@
 			(type default)
 		)
 		(uuid "b87140e4-f258-4245-993e-f65211f1311c")
-	)
-	(wire
-		(pts
-			(xy 147.32 91.44) (xy 152.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2d25f2-7024-444e-b52f-ffab4f2b410e")
 	)
 	(wire
 		(pts
@@ -2579,7 +2445,8 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 147.32 78.74 270)
+		(at 147.32 78.74 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2587,7 +2454,7 @@
 		(dnp no)
 		(uuid "2e118116-82dd-4885-97d7-244c28d4c645")
 		(property "Reference" "J4"
-			(at 156.21 77.4699 90)
+			(at 138.43 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2463,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 157.226 78.74 0)
+			(at 137.414 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,8 +2471,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 82.55 0)
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 82.55 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,6 +2490,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\Victus\\Downloads\\165096554-36-1734035-2\\1734035-2_3D.dwg"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -2653,73 +2529,6 @@
 			(project "MCU-POWERSUPPLY"
 				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fe48b70-78be-4f66-9cfd-a1aceff9e467")
-		(property "Reference" "R2"
-			(at 143.51 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 143.51 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbb4a88f-904c-41de-b05f-031328c7492b")
-		)
-		(pin "2"
-			(uuid "58e3c9b4-06c1-434f-ace6-91d4891d4775")
-		)
-		(instances
-			(project "MCU-POWERSUPPLY"
-				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
-					(reference "R2")
 					(unit 1)
 				)
 			)
