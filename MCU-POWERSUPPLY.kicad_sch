@@ -1891,16 +1891,16 @@
 		(uuid "4d8474aa-2e97-4e97-b743-953acf028959")
 	)
 	(no_connect
-		(at 137.16 76.2)
+		(at 157.48 76.2)
 		(uuid "56127519-b775-47d1-b2ef-56f7c6c012dd")
-	)
-	(no_connect
-		(at 144.78 86.36)
-		(uuid "6b284e14-da07-49bf-9f08-774e030dccd3")
 	)
 	(no_connect
 		(at 142.24 86.36)
 		(uuid "7d4681c5-94f7-4aab-a2ab-e1437cb6a7d8")
+	)
+	(no_connect
+		(at 149.86 86.36)
+		(uuid "b1f9ddef-32ea-4d64-9e57-38be21b8227f")
 	)
 	(wire
 		(pts
@@ -1994,13 +1994,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 84.455) (xy 118.745 84.455)
+			(xy 120.65 83.82) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52627a79-c1c6-48d4-8b76-4dece5eca23b")
+		(uuid "4c17cf94-1777-49dd-b618-c90e605a6a2e")
 	)
 	(wire
 		(pts
@@ -2124,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 89.535) (xy 118.745 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03a8549-b9a5-4017-ab4b-93f7bdbaf2bd")
-	)
-	(wire
-		(pts
 			(xy 149.86 113.03) (xy 153.67 113.03)
 		)
 		(stroke
@@ -2174,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3589f8-9b00-4962-9cd2-ab7c438a5f6b")
+	)
+	(wire
+		(pts
 			(xy 114.3 113.03) (xy 114.3 120.65)
 		)
 		(stroke
@@ -2203,7 +2203,7 @@
 		(uuid "f7cbcd67-966d-476a-8f9d-d8c39dbd2f90")
 	)
 	(label "+12V"
-		(at 120.015 84.455 0)
+		(at 120.65 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,7 +2213,7 @@
 		(uuid "11e8ffc2-84a8-4069-9f7f-f0e41ff756c8")
 	)
 	(label "GND"
-		(at 120.015 89.535 0)
+		(at 120.65 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(uuid "2e118116-82dd-4885-97d7-244c28d4c645")
 		(property "Reference" "J4"
-			(at 138.43 77.4699 90)
+			(at 138.684 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 137.414 78.74 0)
+			(at 131.318 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2733,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 103.505 86.995 0)
+		(at 102.87 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2742,7 +2742,7 @@
 		(fields_autoplaced yes)
 		(uuid "62ce2e40-10a0-47ab-a68b-3661734f4c9b")
 		(property "Reference" "J3"
-			(at 103.505 78.105 0)
+			(at 102.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 103.505 80.645 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.775 88.011 0)
+			(at 104.14 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.775 88.011 0)
+			(at 104.14 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 103.505 86.995 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 114.935 89.535 0)
+		(at 114.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2887,7 +2887,7 @@
 		(dnp no)
 		(uuid "8a7927e9-72c5-4b4c-84c9-5ec3771e6410")
 		(property "Reference" "D2"
-			(at 115.443 92.837 0)
+			(at 114.808 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2895,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 115.189 92.075 0)
+			(at 114.554 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.935 89.535 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 89.535 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2922,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 114.935 89.535 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 114.935 84.455 270)
+		(at 114.3 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3091,7 +3091,7 @@
 		(dnp no)
 		(uuid "e4bef48c-7263-420a-956a-44d3cbd951df")
 		(property "Reference" "F2"
-			(at 114.681 82.677 90)
+			(at 114.046 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 113.665 82.169 90)
+			(at 113.03 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,8 +3107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.935 82.677 90)
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+			(at 114.3 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 84.455 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3126,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 114.935 84.455 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 78.74 270)
+		(at 157.48 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3159,7 +3159,7 @@
 		(dnp no)
 		(uuid "e50af399-97ab-40e5-ba30-bdab60aaa851")
 		(property "Reference" "#PWR011"
-			(at 130.81 78.74 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.668 81.026 90)
+			(at 157.226 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 78.74 0)
+			(at 157.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 78.74 0)
+			(at 157.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 78.74 0)
+			(at 157.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
