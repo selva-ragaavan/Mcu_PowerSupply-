@@ -1,4 +1,4 @@
-25210708278595874
+25210708295555434
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55979,12 +55979,12 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Dc-PowerJack
-DC-005 5.5×2.1mm Female DC Power Jack Supply Socket
+Dc-Female-PowerJack
 
 
 0
-3
-3
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
