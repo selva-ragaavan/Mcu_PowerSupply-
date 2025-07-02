@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 19.425 -29.6 0)
+		(at -2.49 -8.36 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f96205a5-1d63-428a-8d15-26c9f3bd5681")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Dc-Female-PowerJack"
-		(at 19.425 -28.1 0)
+		(at -2.29 -6.94 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "70fd195e-adff-4282-a54e-8bdce5f9d727")
@@ -65,8 +65,8 @@
 		(uuid "88cc21f9-e2fa-4e7c-a0b3-b65f131a5196")
 	)
 	(fp_line
-		(start -7.56 -3.68)
-		(end 0.02 -3.68)
+		(start -7.55 -3.68)
+		(end 0.03 -3.68)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "d652b64a-1ffd-4f1b-b3cd-607d254b55be")
 	)
 	(fp_line
-		(start 0.02 4.8)
-		(end -7.56 4.8)
+		(start 0.02 5.02)
+		(end -7.56 5.02)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -104,8 +104,79 @@
 		(layer "F.SilkS")
 		(uuid "2d8cdbe8-2f84-4b01-8f04-91bc35b94f17")
 	)
+	(fp_rect
+		(start -7.98 -4.02)
+		(end 0.64 5.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "19f3052d-8595-4566-830c-2948aa697626")
+	)
+	(fp_line
+		(start -7.57 -3.68)
+		(end 0.06 -3.68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "089ef183-87be-4f5b-8cff-d4377b997f78")
+	)
+	(fp_line
+		(start -7.53 5.01)
+		(end -7.57 -3.68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e3dbc3c5-246a-4908-b403-ff56d23ac3b8")
+	)
+	(fp_line
+		(start -0.97 5.01)
+		(end -7.53 5.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ca807052-c3fb-4383-a041-f1b8190ad6f3")
+	)
+	(fp_line
+		(start 0 1.99)
+		(end 0.01 5.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3951b046-d464-477e-910e-9d0b283d0d72")
+	)
+	(fp_line
+		(start 0.01 5.01)
+		(end -0.97 5.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "604df1f0-9088-43cf-8b93-cb7f32c9b1d2")
+	)
+	(fp_line
+		(start 0.06 -3.68)
+		(end 0.06 -1.63)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ed513ad9-850d-4909-988f-a8fe61487aae")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 19.425 -26.6 0)
+		(at -2.29 -5.44 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "06666994-e318-415a-a4af-622779b21e7f")
