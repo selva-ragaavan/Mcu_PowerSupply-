@@ -1845,12 +1845,6 @@
 		(uuid "2a87ab68-6e43-4614-a955-f005aa99ec36")
 	)
 	(junction
-		(at 158.75 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "361973f7-ae82-430d-9ea6-4e4d26b593f6")
-	)
-	(junction
 		(at 140.97 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1895,12 +1889,12 @@
 		(uuid "56127519-b775-47d1-b2ef-56f7c6c012dd")
 	)
 	(no_connect
-		(at 142.24 86.36)
-		(uuid "7d4681c5-94f7-4aab-a2ab-e1437cb6a7d8")
-	)
-	(no_connect
 		(at 149.86 86.36)
 		(uuid "b1f9ddef-32ea-4d64-9e57-38be21b8227f")
+	)
+	(no_connect
+		(at 152.4 86.36)
+		(uuid "cc840f7f-e50b-4692-9215-a8d7ec565933")
 	)
 	(wire
 		(pts
@@ -1934,23 +1928,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 158.75 113.03)
+			(xy 153.67 113.03) (xy 161.29 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ecd0012-d0a7-4d9c-b029-9117518f950f")
-	)
-	(wire
-		(pts
-			(xy 134.62 91.44) (xy 152.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10125e0d-0ca7-48dd-a630-09f2fc7fe3f2")
 	)
 	(wire
 		(pts
@@ -2004,6 +1988,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 87.63) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e104f7-2a31-491f-ae2e-dad538fc4301")
+	)
+	(wire
+		(pts
 			(xy 101.6 111.76) (xy 102.87 111.76)
 		)
 		(stroke
@@ -2014,13 +2008,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 158.75 113.03)
+			(xy 142.24 87.63) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b51a62d-1094-42bb-a5dd-9fb71dc067b8")
+		(uuid "6529f0ac-cf42-41c8-9776-99e9d3247b58")
 	)
 	(wire
 		(pts
@@ -2031,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "8332e194-96ac-43d6-b3dd-843af63b413b")
-	)
-	(wire
-		(pts
-			(xy 158.75 107.95) (xy 158.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874e5a58-2657-487c-b8af-cf15c1a3f6a1")
 	)
 	(wire
 		(pts
@@ -2192,16 +2176,6 @@
 		)
 		(uuid "f53bb3f3-2fb2-4c97-89c8-1d66ba9e57b4")
 	)
-	(wire
-		(pts
-			(xy 152.4 86.36) (xy 152.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7cbcd67-966d-476a-8f9d-d8c39dbd2f90")
-	)
 	(label "+12V"
 		(at 120.65 83.82 0)
 		(effects
@@ -2223,7 +2197,7 @@
 		(uuid "58babb2a-42d1-496c-996e-bbcc83cb20a8")
 	)
 	(label "+5V"
-		(at 134.62 91.44 0)
+		(at 158.75 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2383,7 +2357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b2ea67e-804c-4ede-af01-6c510bf87733")
-		(property "Reference" "COUT3"
+		(property "Reference" "C2"
 			(at 154.178 114.808 0)
 			(effects
 				(font
@@ -2401,7 +2375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 154.6352 120.65 0)
 			(effects
 				(font
@@ -2437,7 +2411,7 @@
 		(instances
 			(project "MCU-POWERSUPPLY"
 				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
-					(reference "COUT3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2529,71 +2503,6 @@
 			(project "MCU-POWERSUPPLY"
 				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 158.75 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ad0c420-9cfd-4874-8fce-812aadb46dcc")
-		(property "Reference" "#FLG07"
-			(at 158.75 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 158.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70924dd8-d725-466d-99be-61b68007a32e")
-		)
-		(instances
-			(project "MCU-POWERSUPPLY"
-				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002"
 			(at 104.14 87.376 0)
 			(effects
 				(font
@@ -2903,7 +2812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal"
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -2954,7 +2863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85d3ab6-c592-445a-b9dd-6b02815c2caf")
-		(property "Reference" "Cin2"
+		(property "Reference" "C1"
 			(at 105.918 110.998 0)
 			(effects
 				(font
@@ -2972,7 +2881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 111.4552 116.84 0)
 			(effects
 				(font
@@ -3008,7 +2917,7 @@
 		(instances
 			(project "MCU-POWERSUPPLY"
 				(path "/f980154e-574c-4824-a575-d6afb7ffe96b"
-					(reference "Cin2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3039,7 +2948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L16.0mm_D6.3mm_P25.40mm_Horizontal_Fastron_VHBCC"
 			(at 146.05 113.03 0)
 			(effects
 				(font
@@ -3107,7 +3016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm"
 			(at 114.3 82.042 90)
 			(effects
 				(font
@@ -3168,7 +3077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.226 74.422 90)
+			(at 157.48 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 140.97 116.84 0)
 			(effects
 				(font
