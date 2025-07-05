@@ -1055,7 +1055,7 @@
 		(descr "Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf")
 		(tags "connector barrel jack")
 		(property "Reference" "J3"
-			(at 0 -2.5 90)
+			(at 5.9 8 180)
 			(layer "F.SilkS")
 			(uuid "e14d887a-e0f1-43e0-a4d1-dc9a8b28d5ba")
 			(effects
@@ -1617,7 +1617,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C2"
-			(at 0 0 90)
+			(at -1.75 0 180)
 			(layer "F.SilkS")
 			(uuid "851432b7-113b-4848-a6f1-fc823e0f8989")
 			(effects
@@ -2130,11 +2130,11 @@
 	(footprint "Connector_USB:USB_Micro-B_Molex-105017-0001"
 		(layer "F.Cu")
 		(uuid "ef34dfa4-437c-4ce2-9019-99c244e92c9b")
-		(at 181.7375 110.1 -90)
+		(at 181.0375 109.5 -90)
 		(descr "http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf")
 		(tags "Micro-USB SMD Typ-B")
 		(property "Reference" "J4"
-			(at 0 -3.1125 90)
+			(at -5.1 0.7375 0)
 			(layer "F.SilkS")
 			(uuid "6b1b3aec-ba21-4cb6-9180-b3fe5ca932d3")
 			(effects
@@ -2419,17 +2419,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "bb7fbded-4d85-48b8-a0bc-1fc6a1e42f05")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0.8875 90)
-			(layer "F.Fab")
-			(uuid "9eafd526-1a3d-4332-9313-de2f9dc1b434")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.3 -1.4625 270)
@@ -2836,6 +2825,76 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 184.5 114)
+		(end 184.5 116.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0cfa9e88-b4d7-40ee-8519-d9e492d5bf05")
+	)
+	(gr_line
+		(start 184.5 116.5)
+		(end 97 116.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f87aafe-e151-46ac-9a59-461a236fb5fb")
+	)
+	(gr_line
+		(start 97 100.5)
+		(end 97 116.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "169a5bed-798a-4c11-8b2c-1923f7de6681")
+	)
+	(gr_line
+		(start 184.5 114)
+		(end 183.5 114)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1a0d8446-9939-454e-a262-3a584ba4a74d")
+	)
+	(gr_line
+		(start 184.5 100.5)
+		(end 184.5 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31524e24-954b-491f-849a-f798a98135b5")
+	)
+	(gr_line
+		(start 97 100.5)
+		(end 184.5 100.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60c86982-0406-439d-923f-b3c4a4d081c3")
+	)
+	(gr_line
+		(start 184.5 105)
+		(end 183.5 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9f85f14-acb4-437a-8b1b-9cdd9e03ecc4")
 	)
 	(embedded_fonts no)
 )
